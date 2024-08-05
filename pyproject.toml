@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gpt"
+version = "0.1.0"
+description = ""
+authors = ["mbyx <mbyx.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+google-generativeai = "^0.7.2"
+typer = "^0.12.3"
+pexpect = "^4.9.0"
+rich = "^13.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
